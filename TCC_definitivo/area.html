@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../TCC_definitivo/style/index.css">
+    <title>DMPR Area do Colaborador</title>
+    <style>
+      body {
+
+background-color: #5d8eb0;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+
+}
+section,
+footer{
+  /*padding:54px 0;*/
+  padding: 10px;
+}
+
+h1{
+  font-size: 50px;
+}
+p{
+  color:#000;
+}
+
+.container{
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1% 1% 1% 1%;
+}
+
+
+.container img
+{
+width: 50%;
+height: auto;
+position: relative;
+}
+
+header{
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul{
+display: flex;
+align-items: top;
+}
+
+
+nav ul a{
+color:white;
+margin: 0 25px;
+text-transform: uppercase;
+font-size: 14px;
+display: block;
+}
+
+
+nav ul a:not(.btn)::after {
+  content: "";
+  background-color: #4f9cf9;
+  height: 3px;
+  width: 0%;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.banner{
+display: flex;
+justify-content: center;
+padding: 0 0 0 100px;
+}
+.banner .banner-text{
+margin: 158px;
+text-align: center;
+padding: 0 90px;
+}
+
+.banner .banner-text h1{
+font-size: 96px;
+color: white ;
+
+}
+
+.logo{
+width: 50%;
+height: auto;
+position: relative;
+}
+
+
+section.hidden {
+display: flex;
+justify-content: center; /* Centraliza os itens horizontalmente */
+flex-wrap: wrap; /* Quebra para a próxima linha se não couberem */
+padding: 0 15px; /* Espaço igual dos lados */
+box-sizing: border-box; /* Inclui padding na largura e altura do elemento */
+}
+
+section.hidden div {
+text-align: center;
+width: 250px; /* Largura das divs das imagens */
+margin: 15px; /* Espaçamento entre as imagens */
+box-sizing: border-box; /* Inclui padding na largura e altura do elemento */
+}
+
+
+section.hidden img {
+  max-width: 100%; /* Garante que as imagens se ajustem às divs */
+  height: auto;
+}
+h1{
+  align-items: center;
+  }
+  h1 {
+      text-align: center;
+  }
+  div img {
+    max-width: 100%;
+    height: auto;
+}
+
+div a button {
+    background-color: #140951; /* Cor de fundo azul */
+    color: white; /* Cor do texto */
+    border: none; /* Remover a borda padrão */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 15px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remover sublinhado padrão */
+    display: inline-block; /* Para que o botão respeite largura e altura especificadas */
+}
+
+div a button:hover {
+    background-color: #0056b3; /* Cor de fundo azul mais escura no hover */
+    cursor: pointer; /* Mudar o cursor ao passar o mouse */
+}
+#btn{
+  display: flex;
+  background-color: #4f9cf9;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.1s;
+  padding: 15px 20px; 
+}
+h1 {
+  text-shadow: 2px 2px 5px #000 ;
+  color: #fff;
+  text-decoration-line: overline;
+  text-decoration-color: #140951;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+      <nav>
+        <a href="inicio.html">
+          <img src="../TCC_definitivo/imagens/logotipo.png"  alt="Logo">
+        </a>
+        <ul class="ul">
+          <a href="http://localhost/TCC_definitivo/inicio.html">Home</a>
+          <a href="http://localhost/TCC_definitivo/suporte.html">contato</a>
+          <a href="http://localhost/TCC_definitivo/inicio.html" class= "btn btn-danger me-5" >Sair</a>
+        </ul>
+      </nav>
+        
+    </header>
+
+    <h1>BANCADA DE TRABALHO </h1>
+  
+
+    <h1>DMPR</h1>
+  
+
+    <section class="hidden">
+      <div>
+       <img src="../TCC_definitivo/advogado.1-removebg-preview.png">
+       <br>
+       <a href="http://localhost/TCC_definitivo/php/advogado1.php"class="btn animate-btn"><button>advogado</button></a>
+      </div>  
+      
+      <div>
+          <img src="../TCC_definitivo/clientes-removebg-preview.png">
+        <br>
+        <a href="http://localhost/TCC_definitivo/php/advogado.php" class="btn animate-btn"><button>Cliente</button></a>
+       </div> 
+
+       <div>
+        <img src="../TCC_definitivo/processo-removebg-preview.png">
+        <br>
+        <a href="../TCC_definitivo/links2.html"><button>Processos</button></a>
+       </div>
+       <div>
+        <img src="../TCC_definitivo/imagens/consulta.png">
+        <br>
+        <a href="https://comunica.pje.jus.br/"><button>Publicações</button></a>
+       </div>
+
+       <div>
+        <img src="../TCC_definitivo/consulta.1-removebg-preview.png">
+        <br>
+        <a href="../TCC_definitivo/links.html"><button>Consultas</button></a>
+       </div> 
+ 
+       <div>
+        <img src="../TCC_definitivo/noticias-removebg-preview.png">
+        <br>
+        <a href="https://www.jota.info/"><button>Noticias</button></a>
+       </div> 
+
+       <div>
+        <img src="../TCC_definitivo/suporte-removebg-preview.png">
+        <br>
+        <a href="../TCC_definitivo/suporte.html"><button>Suporte</button></a>
+       </div> 
+    </section>
+
+        </ul>
+    </nav>
+      </footer> 
+   
+
+  
